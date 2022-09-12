@@ -20,7 +20,7 @@ for (k = j + 1; k < 58; k++)
 putchar(i);
 putchar(j);
 putchar(k);
-if ( i != 7)
+if ( i != 56)
 {
 putchar(',');
 putchar(' ');
