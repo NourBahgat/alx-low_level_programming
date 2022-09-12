@@ -6,7 +6,7 @@
 * Return: 0 on success
 */
 
-int main (void)
+int main(void)
 {
 int i;
 int j;
@@ -20,7 +20,7 @@ for (k = j + 1; k < 58; k++)
 putchar(i);
 putchar(j);
 putchar(k);
-if ( i != 56)
+if (i != 56)
 {
 putchar(',');
 putchar(' ');
