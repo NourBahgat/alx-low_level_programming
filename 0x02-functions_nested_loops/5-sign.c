@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - Short description, single line
+ * print_sign - print sign of number
  * @c: contains value to be compared
- * Return: Always 0.
+ * Return:0 or 1 or -1
 */
 int print_sign(int n)
 {
@@ -21,5 +21,5 @@ else {
 _putchar(48);
 return (0);
 }
-_putchar('\n')
+_putchar('\n');
 }
