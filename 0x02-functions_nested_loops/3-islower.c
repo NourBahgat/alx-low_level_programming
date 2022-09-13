@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 /**
  * _islower - determine lowercase characters
  * @c: contains value to be compared
@@ -7,14 +6,13 @@
 */
 int _islower(int c)
 {
-int d;
-if (islower(d) == 0)
+if (c >= 'a' && c <= 'z')
 {
-_putchar(48);
+_putchar(49);
 }
 else
 {
-_putchar(49);
+_putchar(48);
 }
 _putchar('\n');
 return (0);
