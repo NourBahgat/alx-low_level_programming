@@ -7,8 +7,8 @@
 */
 int _islower(int c)
 {
-int c;
-if (islower(c) == 0)
+int d;
+if (islower(d) == 0)
 {
 _putchar(48);
 }
