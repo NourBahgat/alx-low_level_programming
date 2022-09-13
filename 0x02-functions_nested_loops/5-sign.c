@@ -2,7 +2,7 @@
 
 /**
  * print_sign - print sign of number
- * @c: contains value to be compared
+ * @n: contains value to be compared
  * Return:0 or 1 or -1
 */
 int print_sign(int n)
@@ -17,7 +17,8 @@ else if (n < 0)
 _putchar(45);
 return (-1);
 }
-else {
+else
+{
 _putchar(48);
 return (0);
 }
