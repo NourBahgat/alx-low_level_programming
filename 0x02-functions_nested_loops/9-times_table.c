@@ -18,7 +18,7 @@ for (y = 0; y >= 9; y++)
 z = x * y;
 if (z <= 9)
 {
-_putchar (z + '0');
+_putchar ((z % 10) + '0');
 _putchar (',');
 _putchar (' ');
 }
