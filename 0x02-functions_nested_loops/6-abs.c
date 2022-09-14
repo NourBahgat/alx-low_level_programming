@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _abs - prints the absolute of any number
- * abs - computes the absolute of a number
+ * _abs - prints the absolute of any number, abs - computes the absolute of int
  * @n: int to print
- * return: n, 0
+ * return: n
 */
 
 int _abs(int n)
