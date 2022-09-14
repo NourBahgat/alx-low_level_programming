@@ -29,6 +29,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(ones + '0');
+}
 else
 {
 _putchar(',');
