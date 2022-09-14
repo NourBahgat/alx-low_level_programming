@@ -4,7 +4,7 @@
  * add - add two int
  * @n: first int
  * @m: second int
- * 
+ *
  * Description: give two integers, returns sum
  *
  * Return: sum
