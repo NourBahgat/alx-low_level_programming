@@ -3,9 +3,9 @@
 
 /**
  * _abs - prints the absolute of any number
- * abs - computes the absolute of a number 
+ * abs - computes the absolute of a number
  * @n: int to print
- * return: n
+ * return: n, 0
 */
 
 int _abs(int n)
