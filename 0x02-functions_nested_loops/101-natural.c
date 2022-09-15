@@ -17,6 +17,7 @@ if (i % 3 == 0 || i % 5 == 0)
 sum = sum + i;
 putchar(sum + '0');
 }
-putchar('\n');
 }
+_putchar('\n');
+return (0);
 }
