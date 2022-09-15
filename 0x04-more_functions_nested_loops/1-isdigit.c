@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_isdigit - determines digits
- *@c: character to be tested
- *Return: 0 or 1 
+ * _isdigit - determines digits
+ * @c: character to be tested
+ * Return: 0 or 1 
  */
 
 int _isdigit(int c)
