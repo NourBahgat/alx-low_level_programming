@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _isupper - determines upper case letters
+ * _isupper - determines upper case letters
  * @c: letter to be tested
  * Return: 0 if low, 1 if up
  */
