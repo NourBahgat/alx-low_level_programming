@@ -7,24 +7,19 @@
 
 void print_diagonal(int n)
 {
-if (n <= 0)
+int i;
+int spc;
+for (i = 0; i < n; i++)
 {
-_putchar('\n');
-}
-else
-{
-int i, j;
-for(i = 1; i < n; i++)
-{
-for (j = 1; j < n; j++)
-{
-if (j == i)
-_putchar('\\');
-else if (j < i)
+for (spc = 0; spc < i; spc++)
 {
 _putchar(' ');
 }
+_putchar('\\');
 _putchar('\n');
 }
+if (n <= 0)
+{
+_putchar ('\n');
 }
 }
