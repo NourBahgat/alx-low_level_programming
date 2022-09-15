@@ -29,8 +29,8 @@ _putchar(z + '0');
 else if (rep < 100)
 {
 _putchar(' ');
-_putchar('0' + rep / 10);
-_putchar('0' + rep % 10);
+_putchar('0' + z / 10);
+_putchar('0' + z % 10);
 }
 else
 {
@@ -38,7 +38,7 @@ _putchar(z / 100 + '0');
 _putchar((z - 100) / 10 + '0');
 _putchar(z % 10 + '0');
 }
-if (b < n)
+if (y < n)
 {
 _putchar(',');
 _putchar(' ');
