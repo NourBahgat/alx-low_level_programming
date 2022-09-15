@@ -19,3 +19,4 @@ putchar(sum + '0');
 }
 putchar('\n');
 }
+}
