@@ -18,7 +18,7 @@ for (y = 0; y <= 0; y++)
 z = x * y;
 if (y == 0)
 {
-_putchar('0');
+_putchar('0' + z);
 }
 else if (z < 10)
 {
