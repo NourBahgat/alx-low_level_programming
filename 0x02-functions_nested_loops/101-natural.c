@@ -1,7 +1,5 @@
-
-
-0;276;0c#include <stdio.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * prints sum of multiples of 3 or 5 below 1024
@@ -17,9 +15,8 @@ for (i = 0; i < 1024; i++)
 if (i % 3 == 0 || i % 5 == 0)
 {
 sum = sum + i;
-printf("%d", sum);
 }
 }
-putchar('\n');
+printf("%d\n", sum);
 return (0);
 }
