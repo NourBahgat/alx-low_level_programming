@@ -13,13 +13,11 @@ if (n > 15 || n < 0)
 return;
 for (x = 0; x <= n; x++)
 {
-for (y = 0; y <= 0; y++)
+for (y = 0; y <= n; y++)
 {
 z = x * y;
 if (y == 0)
-{
 _putchar('0' + z);
-}
 else if (z < 10)
 {
 _putchar(' ');
