@@ -15,7 +15,7 @@ _putchar(n + '0')
 }
 if (n == 2 || n == 4)
 {
-break;
+n++;
 }
 _putchar('\n');
 }
