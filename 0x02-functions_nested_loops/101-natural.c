@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+
+0;276;0c#include <stdio.h>
 #include <stdio.h>
 
 /**
@@ -15,7 +17,7 @@ for (i = 0; i < 1024; i++)
 if (i % 3 == 0 || i % 5 == 0)
 {
 sum = sum + i;
-putchar(sum + '0');
+printf("%d", sum);
 }
 }
 putchar('\n');
