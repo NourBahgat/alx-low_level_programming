@@ -15,7 +15,7 @@ for (i = 1; i <=50; i++)
 {
 sum = i + (i - 1);
 printf("%d, ", sum);
-if (i = 50)
+if (i == 50)
 printf("%d", sum);
 }
 return (0);
