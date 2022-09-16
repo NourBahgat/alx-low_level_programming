@@ -13,7 +13,6 @@ unsigned long int n;
 unsigned long int div, max;
 n = 612852475143;
 div = 2;
-ans = 0;
 while (n != 0)
 {
 if (n % div != 0)
