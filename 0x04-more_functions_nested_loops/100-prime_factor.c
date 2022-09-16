@@ -8,8 +8,9 @@
 
 int main()
 {
-unsigned long int n, max, ans = 0, div = 2;
+unsigned long int n;
 n = 612852475143;
+unsigned long int div = 2, max;
 while (n != 0)
 {
 if (n % div != 0)
@@ -23,7 +24,6 @@ n = n / div;
 if (n == 1)
 {
 printf("%d is the largest prime factor", max);
-ans = 1;
 break;
 }
 }
