@@ -10,25 +10,24 @@
 int main(void)
 {
 unsigned long int n;
-unsigned long int div, max;
+int oddmax, evenmax;
 n = 612852475143;
-div = 2;
-while (n != 0)
+evenmax = 0;
+oddmax = 3;
+while (n % 2 == 0)
 {
-if (n % div != 0)
+evenmax = 2;
+n /= 2;
+}
+while (n != 1)
 {
-div = div + 1;
-}
-else
+while (n % oddmax == 0)
 {
-max = n;
-n = n / div;
-if (n == 1)
-{
-printf("%ld is the largest prime factor", max);
-break;
+evenmax = oddmax;
+n /= oddmax;
 }
+oddmax += 2;
 }
-}
+printf("%d is the largest prime factor", evenmax);
 return (0);
 }
