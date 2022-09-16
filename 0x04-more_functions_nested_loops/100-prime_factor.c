@@ -6,9 +6,9 @@
  * Return: always 0
  */
 
-int main(void)
+int main()
 {
-long int n, max, ans, div = 2;
+long int n, max, ans = 0, div = 2;
 n = 612852475143;
 while (n != 0)
 {
@@ -22,7 +22,7 @@ max = n;
 n = n / div;
 if (n == 1)
 {
-printf ("%d is the largest prime factor", max);
+printf("%d is the largest prime factor", max);
 ans = 1;
 break;
 }
