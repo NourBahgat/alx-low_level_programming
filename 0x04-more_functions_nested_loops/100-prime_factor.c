@@ -7,7 +7,7 @@
  * Return: always 0
  */
 
-int main(void)
+int main()
 {
 unsigned long int n;
 unsigned long int div, max, ans;
