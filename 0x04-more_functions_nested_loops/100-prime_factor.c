@@ -8,7 +8,7 @@
 
 int main()
 {
-long int n, max, ans = 0, div = 2;
+unsigned long int n, max, ans = 0, div = 2;
 n = 612852475143;
 while (n != 0)
 {
