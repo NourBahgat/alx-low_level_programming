@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print the largest prime factor
@@ -9,8 +10,9 @@
 int main()
 {
 unsigned long int n;
+unsigned long int div, max;
 n = 612852475143;
-unsigned long int div = 2, max;
+div = 2;
 while (n != 0)
 {
 if (n % div != 0)
@@ -23,7 +25,7 @@ max = n;
 n = n / div;
 if (n == 1)
 {
-printf("%d is the largest prime factor", max);
+printf("%ld is the largest prime factor", max);
 break;
 }
 }
