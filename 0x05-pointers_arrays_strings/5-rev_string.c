@@ -13,7 +13,7 @@ while (s[count])
 {
 if (count == '\0')
 break;
-count++
+count++;
 }
 for (i = 0; i < count/2; i++)
 {
