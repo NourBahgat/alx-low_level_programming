@@ -24,4 +24,3 @@ s[i] = s[count2];
 s[count2--] = temp;
 }
 }
-      
