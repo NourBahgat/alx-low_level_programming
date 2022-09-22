@@ -15,7 +15,7 @@ for (i = 0; s1[i] == s2[i] && s1[i] != '\0'; i++)
 {
 if (s1 > s2 || s2 > s1)
 {
-cond = s[i] - s[i];
+cond = s1[i] - s2[i];
 }
 else
 {
