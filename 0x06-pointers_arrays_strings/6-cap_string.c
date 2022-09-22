@@ -6,7 +6,7 @@
  * Return: return value of s
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 int i, j;
 char separators[] = " \t\n,;.!?\"(){}";
