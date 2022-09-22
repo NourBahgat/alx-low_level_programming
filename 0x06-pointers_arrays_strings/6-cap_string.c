@@ -18,7 +18,7 @@ s[0] -= 32;
 }
 for (j = 0; separators[j] != '\0'; j++)
 {
-if ((s[i] == separators[j]) && (s[i + 1] >= 'a' && s[i + 1] <= 'z'))
+if (s[i] == separators[j] && s[i + 1] >= 'a' && s[i + 1] <= 'z')
 {
 s[i + 1] -= 32;
 }
