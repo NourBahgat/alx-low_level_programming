@@ -18,6 +18,10 @@ else
 {
 n1 = n;
 }
+if (n1 == 0)
+{
+_putchar('0');
+}
 if (n1 / 10)
 {
 print_number(n1 / 10);
