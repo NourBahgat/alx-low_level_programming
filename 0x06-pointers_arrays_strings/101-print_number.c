@@ -1,8 +1,8 @@
 #include "main.h"
   
 /**
- * print_number - encode string
- * @n: string to be encode
+ * print_number - print integer
+ * @n: integer to be printed
  * Return: no return
  */
 
@@ -17,10 +17,6 @@ n1 = -n;
 else
 {
 n1 = n;
-}
-if (n1 == 0)
-{
-_putchar('0');
 }
 if (n1 / 10)
 {
