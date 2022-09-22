@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * *string_toupper - concatenate two strings
- * 
- * Return: return value of dest
+ * *string_toupper - convert from lowcase to upcase
+ * @s: string to be converted
+ * Return: return value of s
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-char s[];
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
@@ -17,5 +16,5 @@ if (i >= 'a' && i <= 'z')
 s[i] = s[i] - 32;
 }
 }
-return (0);
+return (s);
 }
