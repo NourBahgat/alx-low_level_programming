@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenate two strings
+ * *_strncat - concatenate two strings
  * @dest: first string
  * @src: second string
+ * @n: number of chars concatenated
  * Return: return value of dest
  */
 
@@ -16,7 +17,7 @@ i++;
 }
 for (j = 0; j < n && src[j] != '\0'; j++)
 {
-dest[i] = src [j];
+dest[i] = src[j];
 i++;
 }
 dest[i] = '\0';
