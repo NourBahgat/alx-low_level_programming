@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+0;276;0c#include <stdlib.h>
 #include <ctype.h>
 
 /**
@@ -15,7 +15,7 @@ int i, j;
 int sum = 0;
 for (i = 1; i < argc; i++)
 {
-for(j = 0; argv[i][j] != '\0'; j++)
+for (j = 0; argv[i][j] != '\0'; j++)
 {
 if (!isdigit(argv[i][j]))
 {
