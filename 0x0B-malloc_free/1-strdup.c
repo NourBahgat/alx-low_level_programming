@@ -22,12 +22,12 @@ count++;
 }
 new = malloc(sizeof(char) * (count + 1));
 if (new == NULL)
-return (NULL);
-while (*str != '\0')
 {
-*new = *str;
-str += 1;
-new += 1;
+return (NULL);
+}
+for (i = 0; str[i]; i++)
+{
+new[i] = str[i];
 }
 new[count] = '\0';
 return (new);
