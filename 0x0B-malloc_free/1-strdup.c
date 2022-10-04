@@ -14,8 +14,8 @@ if (str == NULL)
 return (NULL);
 }
 char *new;
-new = malloc(sizeof(*str));
-while (str != '\0')
+new = malloc(sizeof(*str) * (strlen(str) + 1));
+while (*str != '\0')
 {
 *new = *str;
 str += 1;
