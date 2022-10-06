@@ -12,6 +12,6 @@ void *malloc_checked(unsigned int b)
 void *sawsan;
 sawsan = malloc(b);
 if(sawsan == NULL)
-exit(98);
-return(sawsan);
+exit (98);
+return (sawsan);
 }
