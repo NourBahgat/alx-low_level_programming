@@ -4,7 +4,7 @@
 /**
  * *_calloc - allocate memory for an array
  * @nmemb: number of elements
- * @siz: number of bytes
+ * @size: number of bytes
  * Return: pointer to array
  */
 
