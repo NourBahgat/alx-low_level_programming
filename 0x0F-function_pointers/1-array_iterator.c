@@ -1,10 +1,11 @@
 #include "function_pointers.h"
 
 /**
- *array_iterator - execute fun in array
- *@array: array of unctions
- *@size: size of array
- *@action: pointer to function
+ * array_iterator - execute fun in array
+ * @array: array of unctions
+ * @size: size of array
+ * @action: pointer to function
+ * Return: no return
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
@@ -14,4 +15,5 @@ if (array && action)
 for (i = 0; i < size; i++)
 {
 action(array[i]);
+}
 }
